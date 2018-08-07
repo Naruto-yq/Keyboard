@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E21E5AF210EAAD50011DA28 /* SearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E21E5AE210EAAD50011DA28 /* SearchTextField.m */; };
 		0E2898A62109A67F008338E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2898A52109A67F008338E6 /* AppDelegate.m */; };
 		0E2898A92109A67F008338E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2898A82109A67F008338E6 /* ViewController.m */; };
 		0E2898AC2109A67F008338E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2898AA2109A67F008338E6 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		0E2898B42109A693008338E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2898B32109A693008338E6 /* main.m */; };
 		0E2898BE2109A693008338E6 /* FCSCKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2898BD2109A693008338E6 /* FCSCKeyboardTests.m */; };
 		0E2898C92109A693008338E6 /* FCSCKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2898C82109A693008338E6 /* FCSCKeyboardUITests.m */; };
+		0E2898D82109CEFD008338E6 /* ChangeKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2898D72109CEFD008338E6 /* ChangeKeyboardView.m */; };
+		0E2898DB2109E020008338E6 /* FCSCKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2898DA2109E020008338E6 /* FCSCKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E21E5AD210EAAD50011DA28 /* SearchTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTextField.h; sourceTree = "<group>"; };
+		0E21E5AE210EAAD50011DA28 /* SearchTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTextField.m; sourceTree = "<group>"; };
 		0E2898A12109A67F008338E6 /* FCSCKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCSCKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2898A42109A67F008338E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E2898A52109A67F008338E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		0E2898C42109A693008338E6 /* FCSCKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCSCKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2898C82109A693008338E6 /* FCSCKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSCKeyboardUITests.m; sourceTree = "<group>"; };
 		0E2898CA2109A693008338E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2898D62109CEFD008338E6 /* ChangeKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeKeyboardView.h; sourceTree = "<group>"; };
+		0E2898D72109CEFD008338E6 /* ChangeKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeKeyboardView.m; sourceTree = "<group>"; };
+		0E2898D92109E020008338E6 /* FCSCKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSCKeyboard.h; sourceTree = "<group>"; };
+		0E2898DA2109E020008338E6 /* FCSCKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSCKeyboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				0E2898A52109A67F008338E6 /* AppDelegate.m */,
 				0E2898A72109A67F008338E6 /* ViewController.h */,
 				0E2898A82109A67F008338E6 /* ViewController.m */,
+				0E21E5AD210EAAD50011DA28 /* SearchTextField.h */,
+				0E21E5AE210EAAD50011DA28 /* SearchTextField.m */,
+				0E2898D62109CEFD008338E6 /* ChangeKeyboardView.h */,
+				0E2898D72109CEFD008338E6 /* ChangeKeyboardView.m */,
+				0E2898D92109E020008338E6 /* FCSCKeyboard.h */,
+				0E2898DA2109E020008338E6 /* FCSCKeyboard.m */,
 				0E2898AA2109A67F008338E6 /* Main.storyboard */,
 				0E2898AD2109A693008338E6 /* Assets.xcassets */,
 				0E2898AF2109A693008338E6 /* LaunchScreen.storyboard */,
@@ -262,7 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2898DB2109E020008338E6 /* FCSCKeyboard.m in Sources */,
+				0E21E5AF210EAAD50011DA28 /* SearchTextField.m in Sources */,
 				0E2898A92109A67F008338E6 /* ViewController.m in Sources */,
+				0E2898D82109CEFD008338E6 /* ChangeKeyboardView.m in Sources */,
 				0E2898B42109A693008338E6 /* main.m in Sources */,
 				0E2898A62109A67F008338E6 /* AppDelegate.m in Sources */,
 			);
@@ -370,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
